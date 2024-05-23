@@ -1,7 +1,4 @@
-import type { Metadata } from "next";
-
-
-export async function getPost(id:string) {
+async function getPost(id:string) {
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
   const data = await res.json()
   return data
