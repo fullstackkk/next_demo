@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+main{
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  
+}
+h2{
+  text-align: center;
+
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #372def;
+}
+.link{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 36px;
+  color:white
+}
